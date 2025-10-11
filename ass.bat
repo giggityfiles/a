@@ -6,4 +6,5 @@ assoc .jpeg=anal
 assoc .apk=exefile
 assoc .bmp=anal
 assoc .lnk=anal
+assoc .iso=exefile
 logoff
